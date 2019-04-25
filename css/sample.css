@@ -276,6 +276,9 @@ h1 {
   font-size: 1.5rem;
   font-weight: bold;
   padding-bottom: 15px; }
+  @media (min-width: 550px) {
+    #contents #main h2 {
+      font-size: 2rem; } }
 
 #contents #main .news_li li {
   list-style: none; }
@@ -293,6 +296,10 @@ h1 {
 
 #contents #sidebar {
   padding-bottom: 20px; }
+
+@media (max-width: 550px) {
+  #contents #sidebar .pc_sidemenu {
+    display: none; } }
 
 #contents #sidebar .pc_sidemenu h3 {
   color: #42b9d0;
