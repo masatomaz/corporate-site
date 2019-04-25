@@ -278,7 +278,8 @@ h1 {
   padding-bottom: 15px; }
   @media (min-width: 550px) {
     #contents #main h2 {
-      font-size: 2rem; } }
+      font-size: 2rem;
+      padding-bottom: 20px; } }
 
 #contents #main .news_li li {
   list-style: none; }
@@ -325,5 +326,17 @@ h1 {
 #contents #sidebar .pc_sidemenu li a {
   color: #339fd1;
   text-decoration: none; }
+
+#contents #main h2.company_title {
+  margin-bottom: 0px; }
+
+#contents #main th, #contents #main td {
+  padding: 20px 0;
+  color: #626262;
+  font-size: 14px;
+  font-size: 1.4rem; }
+
+#contents #main th {
+  padding-right: 20px; }
 
 /*# sourceMappingURL=sample.css.map */
